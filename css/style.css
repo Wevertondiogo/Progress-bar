@@ -1,0 +1,29 @@
+body {
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.progress {
+  width: 200px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: #9bdfff;
+
+}
+
+.progress .progress-item {
+  height: 100%;
+  border-radius: 6px;
+  background-color: #25baff;
+  transition: width 200ms;
+}
+
+ .form-control {
+  width: 100px;
+}
